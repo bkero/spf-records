@@ -2,6 +2,9 @@
 """ abc"""
 
 import handler
+import os
+
+os.environ['PYTHONPATH'] = '.'
 
 
 handler.handler("", "")
