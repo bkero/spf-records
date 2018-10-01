@@ -1,0 +1,23 @@
+{
+    "sending domains": {
+        "bke.ro": {
+            "google.com": "txt",
+            "mail.zendesk.com": "txt",
+            "mg-spf.greenhouse.io": "txt",
+            "sendgrid.net": "txt",
+            "mailgun.org": "txt"
+        }
+    },
+    "resolvers": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "1.1.1.1"
+    ],
+    "email": {
+        "to": "bkero@bke.ro",
+        "from": "bkero@bke.ro",
+        "subject": "[Change Detected] SPF Records for {zone} have changed.",
+        "server": "localhost"
+    },
+    "output": "sums.json"
+}
